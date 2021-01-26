@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+.title{
+    text-align: center;
+}
+.item {
+    width: 30%;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 20px auto ;
+}
+.inputbox{
+    border: none;
+    width: 70%;
+    height: 70%;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.inputbox:focus,.deletebtn:focus,.editbtn:focus,.createiteminput:focus,.addbutton:focus{
+    outline: none;
+}
+
+.deletebtn{
+    border: none;
+    width: 15%;
+    height: 80%;
+    border-radius: 10px 0 0 10px;
+    background-color:  rgba(24, 24, 24, 0.87);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.editbtn{
+    border: none;
+    width: 15%;
+    height: 80%;
+    border-radius: 0 10px 10px 0;
+    background-color: rgba(24, 24, 24, 0.87);
+    margin-right: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.editbtn:hover,.deletebtn:hover{
+    background-color: black;
+}
+.additemgroup{
+    display: flex;
+    justify-content: center;
+}
+.createiteminput{
+    border-radius: 10px 0 0 10px;
+    border: none;
+    padding: 10px;
+    width: 20%;
+}
+.addbutton{
+    border-radius: 0 10px 10px 0;
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: green;
+    font-size: 24px;
+    cursor: pointer;
+}
